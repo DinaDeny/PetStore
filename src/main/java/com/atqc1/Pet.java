@@ -42,6 +42,13 @@ public abstract class Pet {
         }
 
     }
+
+    public void buyPet(boolean isSick) throws PetIsSickException {
+        if (isSick){
+            throw new PetIsSickException("Sorry, this pet is sick for now and he is in vet clinic. We try to cure him as soon as possible!")
+        }
+        System.out.println("Congrats! This pet is so cute! You have a new family member now!");
+    }
 }
 
 

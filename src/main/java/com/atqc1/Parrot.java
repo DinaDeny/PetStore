@@ -10,8 +10,9 @@ public class Parrot extends Pet implements Fly{
         return "I can fly!";
     }
 
+    @Override
     public void petSound() {
-        System.out.println("Ar-Ar! Hello!");
+        System.out.println("Ar-Ar! Hello! I can talk and it's cool!");
 
     }
 }
