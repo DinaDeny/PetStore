@@ -1,6 +1,8 @@
 package com.atqc1;
 
 import static com.atqc1.Breed.DOG;
+import static com.atqc1.Color.BLACK;
+import static com.atqc1.Color.GREEN;
 
 public class App {
     public static void main (String[] args){
