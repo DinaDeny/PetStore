@@ -4,6 +4,7 @@ public abstract class Pet {
     private String breed;
     private String color;
     private String price;
+    private String pet;
     static int soldPetCount = 0;
 
     Pet(String price) {
@@ -32,9 +33,9 @@ public abstract class Pet {
         System.out.println("Pets can walk with their owners!");
     }
 
-    void sell(String price) {
+    void sell(String price, String pet) {
         try {
-            System.out.println("You can sell this pet with gift for " + price);
+            System.out.println("You can sell " + pet + " by price " + price + " and receive a gift!");
             soldPetCount++;
         } catch (Exception e) {
             e.printStackTrace();

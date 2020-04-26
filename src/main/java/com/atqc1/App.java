@@ -10,14 +10,15 @@ public class App {
         Pet dog = new Dog ("$100", "large Labrador");
         dog.walk();
         dog.setColor("BLACK");
-        dog.sell(dog.getPrice());
+        dog.sell(dog.getPrice(), "DOG");
 
         Pet cat = new Cat("$25");
         cat.walk();
+        cat.sell(cat.getPrice(), "CAT");
 
         Parrot parrot = new Parrot("$150");
         parrot.setColor("GREEN");
-        parrot.sell(parrot.getPrice());
+        parrot.sell(parrot.getPrice(), "PARROT");
         parrot.fly();
 
         System.out.println(Pet.soldPetCount);
