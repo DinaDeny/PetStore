@@ -29,8 +29,8 @@ public abstract class Pet {
 
     public abstract void petSound();
 
-    void run () {
-        System.out.println("Pets can run with their owners!");
+    void walk () {
+        System.out.println("Pets can walk with their owners!");
     }
 
     void sell(String price){
@@ -43,6 +43,7 @@ public abstract class Pet {
         }
 
     }
+
 
 
 
