@@ -12,7 +12,8 @@ public class App {
         dog.setColor("BLACK");
         dog.sell(dog.getPrice());
 
-        new Cat("$25").walk();
+        Pet cat = new Cat("$25");
+        cat.walk();
 
         Parrot parrot = new Parrot("$150");
         parrot.setColor("GREEN");
