@@ -6,6 +6,11 @@ public class Parrot extends Pet implements Fly{
         super(price);
     }
 
+    @Override
+    void setColor(Color color) {
+        super.setColor(color);
+    }
+
     public String fly() {
         return "I can fly!";
     }

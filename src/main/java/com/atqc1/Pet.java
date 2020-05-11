@@ -1,7 +1,7 @@
 package com.atqc1;
 
 public abstract class Pet {
-    private String breed;
+    private Breed breed;
     private String color;
     private String price;
     private String pet;
@@ -15,7 +15,7 @@ public abstract class Pet {
         return price;
     }
 
-    void setBreed(String breed) {
+    void setBreed(Breed breed) {
         this.breed = breed;
     }
 
@@ -50,6 +50,7 @@ public abstract class Pet {
         }
         System.out.println("Congrats! This pet is so cute! You have a new family member now!");
     }
+
 }
 
 
